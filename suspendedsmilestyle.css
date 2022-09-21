@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body {
+	overflow: hidden;
+	margin: 0;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+	text-rendering: optimizeLegibility;
+   text-align: center;
+}
+
+.well {
+	position: relative;
+	overflow: hidden;
+	transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+  
+    
+}
+
+/*background color */
+
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #41E18F, #8067D8, #C34FCE, #e3e81d, #f472f4, #1ddde8, #8CF4A5, #D5379C, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+/*panel */
+
+.panel {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+font-size: 40px;
+	padding: 4em;
+	box-sizing: border-box;
+	color: white;
+	cursor: default;
+  overflow: hidden;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  text-align-last: justify;
+  
+  
+}
+
+
+
+  
+.panel:nth-child(1) {
+	background: white;
+  
+}
+
+.panel:nth-child(2) {
+	background: #8067D8;
+  
+}
+
+.panel:nth-child(3) {
+	background: #C34FCE;
+}
+
+.panel:nth-child(4) {
+	background: #F5926E;
+}
+
+.panel:nth-child(5) {
+	background: #D5379C;
+}
+
+.panel:nth-child(6) {
+	background: #41E18F;
+}
+
+.panel:nth-child(7) {
+	background: BLACK;
+}
+
+
+.panel:nth-child(8) {
+	background: black;
+}
+
+.panel:nth-child(9) {
+	background:white;
+}
+
+
+/*model box text pages */
+section.one {
+  width: 1000px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+  
+ 
+}
+
+section.two {
+  background-color: #8067D8;
+  width: 1000px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+  text-align-last: right;
+  
+ 
+}
+
+section.three {
+  background-color: #C34FCE;
+  width: 1100px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+  text-align-last: right;
+
+ 
+}
+
+section.four {
+  background-color:#F5926E;
+  width: 1100px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+ 
+}
+
+
+section.five {
+  background-color:#D5379C;
+  width: 1100px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+  text-align-last: left;
+
+}
+
+
+section.six {
+  background-color:  #41E18F;
+  width: 1150px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+  text-align-last: left;
+
+ 
+}
+
+section.seven {
+  background-color: black;
+  width: 1100px;
+  height: fit-content;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  margin: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: justify;
+  letter-spacing: -1px;
+
+ 
+}
+
+
+
+/* BUTTON */
+
+
+.top {
+	font-size: 50%;
+	color: black;
+	cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.buttonx {
+	font-size: 50%;
+	color: black;
+	cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+    background-color: #4db1bc;; 
+  border: 1px solid #3b8b94;; 
+  color: white; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  float: left; 
+  margin: 0.2em;
+  border-radius: 15px;
+  box-shadow: 0 9px #3b8b94;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+.buttonx:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.buttonx:not(:last-child) {
+  border-right: none;
+}
+
+
+.buttonx:hover {
+  background-color: #3b8b94;
+}
+
+.toprightbuttonx {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+
+}  
+
+a:link {
+  text-decoration: none;
+   color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  text-decoration:none;
+   color: #D5379C;
+  font-size:100%;
+}
+
+
+
+
+
+
+/*corsivolucianodecrescenzo*/
+
+#corsivo2 {
+ 
+  float:right;
+  font-size: 30px;
+  text-align-last: right;
+  text-align: right;
+
+}
+#corsivo {
+ 
+  text-align-last: right;
+
+}
+
+/*centertext*/
+
+#centertext {
+ 
+  text-align: center;
+  float:center;
+  text-align-last: center;
+
+}
+
+/*logopos*/
+
+
+#logo {
+ 
+  padding: 1.8em;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+}
+
+
+
+
+/*freelikehappinesspos*/
+
+#isfreepos {
+  text-align: center;
+  float:center;
+  padding: 8em;
+  text-align-last: right;
+  
+}
+
+
+
+
+/*circletextanimation*/
+
+
+#container { margin: 0%; }
+
+#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden; }
+h3 {
+  text-align: right;
+}
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 18.5px; font-weight: bold;}
+
+#circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 700px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+
+/*elmundo*/
+
+
+.roll-text{
+  font-size:2em;
+  text-align:center;
+  margin-top:10vh;
+}
+
+.roll-text:before{
+  font-size:1em;
+  text-align:center;
+  margin-top:10vh;
+  content:'the world';
+  animation: texte 9s infinite;
+}
+
+@keyframes texte {
+  
+  10% {
+    content: 'the world';
+  }
+  20% {
+    content: 'el mundo';
+  }
+  30% {
+    content: 'il mondo';
+  }
+  40% {
+    content: 'ο κόσμος';
+  }
+  50% {
+    content: 'o mundo';
+  }
+  60% {
+    content: 'der welt';
+  }
+  70% {
+    content: "'o munno";
+  }
+  80% {
+    content: '世間様';
+  }
+   90% {
+    content: 'världen';
+  }
+  100% {
+    content: '世界';
+  }
+}
+
